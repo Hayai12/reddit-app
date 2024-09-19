@@ -16,6 +16,8 @@ const Home: React.FC = () => {
     dispatch(setSearchTerm(query));
   };
 
+  console.log(SubredditList)
+
   return (
     <div className="container mx-auto p-4">
       <SearchBar onSearch={handleSearch} />
